@@ -1,0 +1,4 @@
+Bundle-Name: horari-web
+Bundle-SymbolicName: in2.liferay.crud.horari.web
+Bundle-Version: 1.0.0
+Export-Package: in2.liferay.crud.horari.constants

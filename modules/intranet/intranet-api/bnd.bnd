@@ -1,0 +1,10 @@
+Bundle-Name: intranet-api
+Bundle-SymbolicName: in2.liferay.crud.intranet.api2
+Bundle-Version: 1.0.1
+Export-Package: \
+	in2.liferay.crud.intranet.exception,\
+	in2.liferay.crud.intranet.model,\
+	in2.liferay.crud.intranet.service,\
+	in2.liferay.crud.intranet.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../intranet-service/service.xml

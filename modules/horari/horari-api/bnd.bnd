@@ -1,0 +1,10 @@
+Bundle-Name: horari-api
+Bundle-SymbolicName: in2.liferay.crud.horari.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	in2.liferay.crud.horari.exception,\
+	in2.liferay.crud.horari.model,\
+	in2.liferay.crud.horari.service,\
+	in2.liferay.crud.horari.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../horari-service/service.xml
